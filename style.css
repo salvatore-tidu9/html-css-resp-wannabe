@@ -1,0 +1,129 @@
+.row {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: left;
+}
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+/* BLOCCO STEPS */
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 80px;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* COMMON */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/* CSS Media Queries */
+
+
+@media screen and (max-width: 419px) {
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+    background-color: #F2F2CD;
+  }
+
+  #lezioni .row > .left, #lezioni .row>.right {
+      width: 100%;
+    }
+
+    #lezioni .row > h1{
+      padding-top: 10px;
+    }
+
+    #lezioni .row>.right img {
+      padding-top: 40px;
+    }
+
+    #lezioni .row>.right {
+      padding-bottom: 10px;
+    }
+
+    #steps .row {
+      background-color: white;
+    }
+
+    #steps .row > .left,
+    #steps .row > .central,
+    #steps .row > .right {
+      width: 100%;
+      padding-bottom: 40px;
+    }
+
+    #why .row > .third {
+      padding-bottom: 10px;
+    }
+
+    img {
+      width: 40%;
+      height: 40%;
+    }
+
+    #why .row>.first img,
+    #why .row>.second img, #why .row > .third img {
+      width: 25%;
+
+    }
+
+  }
