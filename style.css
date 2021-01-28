@@ -88,7 +88,7 @@ img {
       width: 100%;
     }
 
-    #lezioni .row > h1{
+    #lezioni .row > h1, #why .row h1 {
       padding-top: 10px;
     }
 
@@ -96,7 +96,7 @@ img {
       padding-top: 40px;
     }
 
-    #lezioni .row>.right {
+    #lezioni .row>.right, #why .row > .third  {
       padding-bottom: 10px;
     }
 
@@ -111,10 +111,6 @@ img {
       padding-bottom: 40px;
     }
 
-    #why .row > .third {
-      padding-bottom: 10px;
-    }
-
     img {
       width: 40%;
       height: 40%;
@@ -123,7 +119,6 @@ img {
     #why .row>.first img,
     #why .row>.second img, #why .row > .third img {
       width: 25%;
-
     }
 
-  }
+   }
